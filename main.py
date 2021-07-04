@@ -11,7 +11,6 @@ def node_status():
     if response == 0:
         status = 'up'
     else:
-        print(response)
         status = 'down'
 
     return status
